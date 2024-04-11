@@ -1,0 +1,22 @@
+[
+  {
+    "stt": 1,
+    "testcaseID": "LS001",
+    "scenario": "Login thành công",
+  "testcasename": "Người dùng đăng nhập thành công với usernam và mật khẩu đúng"
+},
+  {
+    "stt": 2,
+    "testcaseID": "LS002",
+    "scenario": "Login thất bại",
+    "testcasename": "Người dùng đăng nhập không thành công với user name và mật khẩu không đúng"
+
+  },
+  {
+    "stt": 3,
+    "testcaseID": "LS003",
+    "scenario": "Login thất bại",
+    "testcasename": "Người dùng đăng nhập không thành công do trường user name bị bỏ trống"
+
+  }
+]

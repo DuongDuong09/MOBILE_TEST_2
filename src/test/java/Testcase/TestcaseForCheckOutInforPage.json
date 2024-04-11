@@ -1,0 +1,35 @@
+[
+  {
+    "stt": 1,
+    "testcaseID": "CI001",
+    "scenario": "Điền thông tin checkout",
+    "testcasename": "Điền đầy đủ thông tin bao gồm firstname, lastname, Zip/postal code hợp lệ và tiếp tục thanh toán"
+  },
+  {
+    "stt": 2,
+    "testcaseID": "CI002",
+    "scenario": "Điền thiếu thông tin check out",
+    "testcasename": "Điền thiếu thông tin firstname và tiếp tục thanh toán"
+
+  },
+  {
+    "stt": 3,
+    "testcaseID": "CI003",
+    "scenario": "Điền thiếu thông tin check out",
+    "testcasename": "Điền thiếu thông tin lastname và tiếp tục thanh toán"
+
+  },
+  {
+    "stt": 4,
+    "testcaseID": "CI004",
+    "scenario": "Điền thiếu thông tin check out",
+    "testcasename": "Điền thiếu thông tin Zip/Postal code và tiếp tục thanh toán"
+
+  },
+  {
+    "stt": 5,
+    "testcaseID": "CI005",
+    "scenario": "Huỷ checkout",
+    "testcasename": "Click huỷ checkout information"
+  }
+]

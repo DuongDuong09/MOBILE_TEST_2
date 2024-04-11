@@ -1,0 +1,22 @@
+[
+  {
+    "stt": 1,
+    "testcaseID": "YC001",
+    "scenario": "Kiểm tra giỏ hàng",
+    "testcasename": "Click nút 'CONTINUE' thất bại sau khi xoá hết sản phẩm trong giỏ hàng ở trang 'YOUR CART' "
+  },
+  {
+    "stt": 2,
+    "testcaseID": "YC002",
+    "scenario": "Kiểm tra giỏ hàng",
+    "testcasename": "Quay trở lại trang Product và tiếp tục mua sắm"
+
+  },
+  {
+    "stt": 3,
+    "testcaseID": "YC003",
+    "scenario": "Kiểm tra giỏ hàng",
+    "testcasename": "Kiểm tra lại sản phẩm trong giỏ hàng va tiếp tục bước thanh toán tiếp theo"
+
+  }
+]

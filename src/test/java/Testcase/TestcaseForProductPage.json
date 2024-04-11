@@ -1,0 +1,47 @@
+[
+  {
+    "stt": 1,
+    "testcaseID": "PP001",
+    "scenario": "Thêm sản phẩm vào giỏ hàng",
+    "testcasename": "Người dùng thêm 1 sản phẩm vào giỏ hàng thành công"
+  },
+  {
+    "stt": 2,
+    "testcaseID": "PP002",
+    "scenario": "Thêm sản phẩm vào giỏ hàng",
+    "testcasename": "Người dùng thêm nhiều sản phẩm vào giỏ hàng thành công"
+
+  },
+  {
+    "stt": 3,
+    "testcaseID": "PP003",
+    "scenario": "Xóa phẩm ra khỏi giỏ hàng",
+    "testcasename": "Người dùng xóa sản phẩm ra khỏi giỏ hàng thành công"
+
+  },
+  {
+    "stt": 4,
+    "testcaseID": "PP004",
+    "scenario": "Sắp xếp theo bộ lọc",
+    "testcasename": "Người dùng sắp xếp list sản phẩm hiển thị theo Name (A to Z)"
+  }
+,
+  {
+    "stt": 5,
+    "testcaseID": "PP005",
+    "scenario": "Sắp xếp theo bộ lọc",
+    "testcasename": "Người dùng sắp xếp list sản phẩm hiển thị theo Name (Z to A)"
+  },
+  {
+  "stt": 6,
+  "testcaseID": "PP006",
+  "scenario": "Sắp xếp theo bộ lọc",
+  "testcasename": "Người dùng sắp xếp list sản phẩm hiển thị theo Price (low to high)"
+}
+,{
+  "stt": 6,
+  "testcaseID": "PP007",
+  "scenario": "Sắp xếp theo bộ lọc",
+  "testcasename": "Người dùng sắp xếp list sản phẩm hiển thị theo Price (high to low)"
+}
+]

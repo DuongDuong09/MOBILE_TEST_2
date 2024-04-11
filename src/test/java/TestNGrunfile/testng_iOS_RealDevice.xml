@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test_NativeApp-iPhone8_Simulator">
+        <parameter name="deviceName" value="iPhone 8"></parameter>
+        <parameter name="udid" value="2033716F-589A-4B44-8D89-0325E35C16FE"></parameter>
+        <parameter name="platformName" value="iOS"></parameter>
+        <parameter name="platformVersion" value="15.0"></parameter>
+        <parameter name="app" value="/Users/duongduong/Downloads/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.zip"></parameter>
+
+        <parameter name="username" value="CorrectUsername"></parameter>
+        <parameter name="password" value="CorrectPassword"></parameter>
+
+        <parameter name="incorrectUsername" value="IncorrectUsername"></parameter>
+        <parameter name="incorrectPassword" value="CorrectPassword"></parameter>
+        <classes>
+            <class name="iOS.tests.LoginTest_iOS">
+                <methods>
+                    <include name="loginSuccess"/>
+                </methods>
+            </class>
+            <class name="iOS.tests.ProductTest_iOS"></class>
+        </classes>
+    </test>
+</suite>

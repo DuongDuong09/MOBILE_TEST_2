@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test_NativeApp-Pixel3a_Emulator">
+        <parameter name="deviceName" value="sdk_gphone64_arm64"></parameter>
+        <parameter name="udid" value="emulator-5554"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="14"></parameter>
+        <parameter name="app" value="/Users/duongduong/IdeaProjects/MOBILE_TEST/src/test/resources/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"></parameter>
+        <parameter name="appPackage" value="com.swaglabsmobileapp"></parameter>
+        <parameter name="appActivity" value="com.swaglabsmobileapp.MainActivity"></parameter>
+
+        <parameter name="username" value="CorrectUsername"></parameter>
+        <parameter name="password" value="CorrectPassword"></parameter>
+        <classes>
+            <class name="Android.tests.LoginTest_Android"/>
+                        <class name="Android.tests.ProductsTest_Android">
+                            <methods>
+                                <include name="AddSomeProductToCart"/>
+                            </methods>
+                        </class>
+            <class name="Android.tests.YourCartTest_Android"></class>
+            <class name="Android.tests.CheckOutInforTest_Android"></class>
+            <class name="Android.tests.CheckOutCompleteTest_Android"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
